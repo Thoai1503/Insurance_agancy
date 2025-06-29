@@ -62,5 +62,12 @@ namespace Insurance_Agency_web.Controllers
             ViewBag.Message = "Your text editor page.";
             return View();
         }
+        public ActionResult Insurance()
+        {
+            Session["allbanner"] = 0;
+         //   Session["display"] = 0;
+            ViewBag.Message = "Your insurance page.";
+            return View();
+        }
     }
 }

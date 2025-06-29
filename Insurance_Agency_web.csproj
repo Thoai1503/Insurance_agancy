@@ -315,6 +315,7 @@
     <Content Include="Views\Home\Testimonial.cshtml" />
     <Content Include="Views\Home\DemoForm.cshtml" />
     <Content Include="Views\Home\TextEditor.cshtml" />
+    <Content Include="Views\Home\Insurance.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

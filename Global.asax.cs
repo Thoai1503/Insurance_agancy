@@ -21,6 +21,7 @@ namespace Insurance_Agency_web
         }
         protected void Application_AcquireRequestState(object sender,EventArgs e)
         {
+            Session["allbanner"] = 1;
             Session["display"] = 1;
         }
     }
